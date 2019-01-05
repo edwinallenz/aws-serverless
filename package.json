@@ -1,0 +1,25 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "learnyounode.js",
+  "repository": {
+    "url": "https://github.com/edwinallenz/aws-serverles.git"
+  },
+  "dependencies": {
+    "workshopper-adventure": "^6.0.4",
+    "workshopper-exercise": "^3.0.1"
+  },
+  "devDependencies": {
+    "workshopper-adventure-test": "^1.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/workshopper-adventure-test"
+  },
+  "bin": {
+    "aws-serverless": "./bin/aws-serverless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
